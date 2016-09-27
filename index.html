@@ -1,0 +1,81 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="fotograf, berlin, tobias, herrmann, sedcard, shooting, fotografie, model, porträt, blog" />
+    <meta name="description" content="Portfolio von Tobias Herrmann, Fotograf aus Berlin mit Galerie zu den Themen Mode- und Porträtfotografie sowie Foto-Blog." />
+    <meta name="content-language" content="de-DE" />
+    <title>Vj Ganesh | Portfolio Home</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link href="http://fonts.googleapis.com/css?family=Mate" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/supersized_2.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/jquery_2.js"></script>
+    <script type="text/javascript" src="js/supersized_2.js"></script>
+    <script type="text/javascript">
+        jQuery(function ($) {
+            $.supersized({
+                // Functionality
+                start_slide: 0,
+                slide_interval: 4000,		// Length between transitions
+                transition: 1, 			// 0-None, 1-Fade
+                transition_speed: 3000,		// Speed of transition
+                // Components
+                slide_links: 'blank',	// Individual links for each slide (Options: false, 'number', 'name', 'blank')
+                slides: [			// Slideshow Images
+                                                { image: 'images/home01.jpg', title: 'Image Credit: Tobias Herrmann' },
+                                                { image: 'images/home02.jpg', title: 'Image Credit: Tobias Herrmann' },
+                                                { image: 'images/home03.jpg', title: 'Image Credit: Tobias Herrmann' },
+                                                { image: 'images/home04.jpg', title: 'Image Credit: Tobias Herrmann' },
+                                                { image: 'images/home05.jpg', title: 'Image Credit: Tobias Herrmann' },
+                                                { image: 'images/home06.jpg', title: 'Image Credit: Tobias Herrmann' },
+                                                { image: 'images/home08.jpg', title: 'Image Credit: Tobias Herrmann' }
+                ]
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#foto").click(function () {
+                // load photo page on click
+                $("#gallery").fadeIn(600);
+            });
+            $("#home").click(function () {
+                $("#gallery").fadeOut(400);
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1><a href="index.html" title="zur Startseite TobiasHerrmann.com"><span>VJ</span> <span>G</span>anesh</a></h1>
+    <div id="gallery">
+        <h2>Selected works</h2>
+        <p>
+            <a href="fotograf-berlin-niklas.html" title="Shooting Niklas"><img src="images/thumb_niklas.jpg" width="145" height="123" alt="zu Niklas Fotos" /></a>
+            <a href="fotograf-berlin-martin.html" title="Shooting Martin"><img src="images/thumb_martin.jpg" width="120" height="123" alt="zu Martins Fotos" /></a>
+            <a href="fotograf-berlin-jasper.html" title="Shooting Jasper"><img src="images/thumb_jasper.jpg" width="119" height="123" alt="zu Jaspers Fotos" /></a>
+            <a href="fotograf-berlin-flavio.html" title="Shooting Flavio"><img src="images/thumb_flavio.jpg" width="179" height="123" alt="zu Flavios Fotos" /></a>
+            <a href="fotograf-berlin-nick.html" title="Shooting Nick"><img src="images/thumb_nick.jpg" width="167" height="123" alt="zu Nicks Fotos" class="last" /></a>
+        </p>
+        <p>
+            <a href="fotograf-berlin-robert.html" title="Colour me in mit Robert H."><img src="images/thumb_robert.jpg" width="175" height="123" alt="zu Roberts Fotos" /></a>
+            <a href="fotograf-berlin-anna-fitim.html" title="Shooting Anna &amp; Fitim"><img src="images/thumb_anna_fitim.jpg" width="111" height="123" alt="zu Annas und Fitims Fotos" /></a>
+            <a href="http://stratus.tobiasherrmann.com/" title="Shooting Stratus"><img src="images/thumb_stratus.jpg" width="191" height="123" alt="zu den Stratus-Fotos" /></a>
+            <a href="fotograf-berlin-christian.html" title="Shooting Christian"><img src="images/thumb_christian.jpg" width="190" height="123" alt="zu Christians Fotos" /></a>
+        </p>
+    </div>
+    <ul id="toolbar">
+        <li><a href="#" title="Start page" id="home">Home</a></li>
+        <li><a title="Gallery and Photo Shoots" href="#" id="foto">photography</a></li>
+        <li><a title="About VJ Ganesh" href="info.html">Info</a></li>
+        <li><a title="Connect with Ganesh" href="contact.html">contact</a></li>
+        <li><a href="/blog" title="to Blog">Blog</a></li>
+        <li><a title="Imprint" href="imprint.html">imprint</a></li>
+        <li class="sn1"><a href="https://www.facebook.com/TobiasHerrmannPhotography" target="_blank" title="Follow on Facebook" rel="nofollow"><img alt="Follow on Facebook" src="images/facebook.png" height="32" width="32" /></a></li>
+        <li class="sn2"><a href="http://twitter.com/tobias_herrmann" target="_blank" title="Follow me on Twitter" rel="nofollow"><img alt="Follow me on Twitter" src="images/twitter.png" height="32" width="32" /></a></li>
+    </ul>
+</body>
+</html>
